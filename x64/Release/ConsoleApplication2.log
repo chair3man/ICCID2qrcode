@@ -1,0 +1,113 @@
+﻿  bitstream.c
+  mask.c
+mask.c(34): error C2054: 在“__STATIC”之后应输入“(”
+mask.c(35): error C2085: “Mask_writeFormatInformation”: 不在形参表中
+mask.c(35): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+mask.c(177): warning C4013: “Mask_writeFormatInformation”未定义；假设外部返回 int
+mask.c(188): error C2054: 在“__STATIC”之后应输入“(”
+mask.c(189): error C2085: “Mask_calcN1N3”: 不在形参表中
+mask.c(189): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+mask.c(221): error C2054: 在“__STATIC”之后应输入“(”
+mask.c(222): error C2085: “Mask_calcN2”: 不在形参表中
+mask.c(222): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+mask.c(244): error C2054: 在“__STATIC”之后应输入“(”
+mask.c(245): error C2085: “Mask_calcRunLength”: 不在形参表中
+mask.c(245): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+mask.c(274): error C2054: 在“__STATIC”之后应输入“(”
+mask.c(275): error C2085: “Mask_evaluateSymbol”: 不在形参表中
+mask.c(275): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+mask.c(318): warning C4013: “Mask_evaluateSymbol”未定义；假设外部返回 int
+  mmask.c
+mmask.c(34): error C2054: 在“__STATIC”之后应输入“(”
+mmask.c(35): error C2085: “MMask_writeFormatInformation”: 不在形参表中
+mmask.c(35): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+mmask.c(123): warning C4013: “MMask_writeFormatInformation”未定义；假设外部返回 int
+mmask.c(128): error C2054: 在“__STATIC”之后应输入“(”
+mmask.c(129): error C2085: “MMask_evaluateSymbol”: 不在形参表中
+mmask.c(129): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+mmask.c(166): warning C4013: “MMask_evaluateSymbol”未定义；假设外部返回 int
+  mqrspec.c
+  qrencode.c
+qrencode.c(111): error C2054: 在“__STATIC”之后应输入“(”
+qrencode.c(111): error C2085: “QRraw_free”: 不在形参表中
+qrencode.c(112): error C2061: 语法错误: 标识符“__STATIC”
+qrencode.c(162): error C2054: 在“__STATIC”之后应输入“(”
+qrencode.c(163): error C2085: “QRraw_getCode”: 不在形参表中
+qrencode.c(163): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrencode.c(185): error C2054: 在“__STATIC”之后应输入“(”
+qrencode.c(186): error C2085: “QRraw_free”: 不在形参表中
+qrencode.c(186): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrencode.c(210): error C2054: 在“__STATIC”之后应输入“(”
+qrencode.c(210): error C2085: “MQRraw_free”: 不在形参表中
+qrencode.c(211): error C2061: 语法错误: 标识符“__STATIC”
+qrencode.c(260): error C2054: 在“__STATIC”之后应输入“(”
+qrencode.c(261): error C2085: “MQRraw_getCode”: 不在形参表中
+qrencode.c(261): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrencode.c(275): error C2054: 在“__STATIC”之后应输入“(”
+qrencode.c(276): error C2085: “MQRraw_free”: 不在形参表中
+qrencode.c(276): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrencode.c(441): error C2054: 在“__STATIC”之后应输入“(”
+qrencode.c(442): error C2085: “QRcode_new”: 不在形参表中
+qrencode.c(442): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrencode.c(463): error C2054: 在“__STATIC”之后应输入“(”
+qrencode.c(464): error C2085: “QRcode_encodeMask”: 不在形参表中
+qrencode.c(464): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrencode.c(547): error C2054: 在“__STATIC”之后应输入“(”
+qrencode.c(548): error C2085: “QRcode_encodeMaskMQR”: 不在形参表中
+qrencode.c(548): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrencode.c(632): warning C4013: “QRcode_encodeMaskMQR”未定义；假设外部返回 int
+qrencode.c(632): warning C4047: “return”:“QRcode *”与“int”的间接级别不同
+qrencode.c(634): warning C4013: “QRcode_encodeMask”未定义；假设外部返回 int
+qrencode.c(634): warning C4047: “return”:“QRcode *”与“int”的间接级别不同
+qrencode.c(721): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+qrencode.c(735): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+qrencode.c(893): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+qrencode.c(902): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+qrencode.c(912): error C2065: “MAJOR_VERSION”: 未声明的标识符
+qrencode.c(915): error C2065: “MINOR_VERSION”: 未声明的标识符
+qrencode.c(918): error C2065: “MICRO_VERSION”: 未声明的标识符
+qrencode.c(924): error C2065: “VERSION”: 未声明的标识符
+qrencode.c(924): warning C4047: “return”:“char *”与“int”的间接级别不同
+  qrinput.c
+qrinput.c(247): error C2054: 在“__STATIC”之后应输入“(”
+qrinput.c(248): error C2085: “QRinput_insertStructuredAppendHeader”: 不在形参表中
+qrinput.c(248): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrinput.c(958): error C2054: 在“__STATIC”之后应输入“(”
+qrinput.c(959): error C2085: “QRinput_estimateBitStreamSize”: 不在形参表中
+qrinput.c(959): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrinput.c(985): warning C4013: “QRinput_estimateBitStreamSize”未定义；假设外部返回 int
+qrinput.c(1002): error C2054: 在“__STATIC”之后应输入“(”
+qrinput.c(1003): error C2085: “QRinput_lengthOfCode”: 不在形参表中
+qrinput.c(1003): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrinput.c(1355): error C2054: 在“__STATIC”之后应输入“(”
+qrinput.c(1356): error C2085: “QRinput_mergeBitStream”: 不在形参表中
+qrinput.c(1356): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrinput.c(1398): error C2054: 在“__STATIC”之后应输入“(”
+qrinput.c(1399): error C2085: “QRinput_getBitStream”: 不在形参表中
+qrinput.c(1399): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrinput.c(1431): warning C4013: “QRinput_getBitStream”未定义；假设外部返回 int
+qrinput.c(1431): warning C4047: “=”:“BitStream *”与“int”的间接级别不同
+qrinput.c(1556): error C2054: 在“__STATIC”之后应输入“(”
+qrinput.c(1557): error C2085: “QRinput_splitEntry”: 不在形参表中
+qrinput.c(1557): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+qrinput.c(1620): warning C4013: “QRinput_lengthOfCode”未定义；假设外部返回 int
+qrinput.c(1625): warning C4013: “QRinput_splitEntry”未定义；假设外部返回 int
+qrinput.c(1693): warning C4013: “QRinput_insertStructuredAppendHeader”未定义；假设外部返回 int
+  qrspec.c
+  rscode.c
+  split.c
+split.c(45): warning C4273: “strdup”: dll 链接不一致
+  H:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的前一个定义
+split.c(98): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+split.c(141): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+split.c(142): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+split.c(144): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+split.c(155): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+split.c(182): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+split.c(219): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+split.c(220): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+split.c(222): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+split.c(238): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+split.c(239): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+split.c(241): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+split.c(252): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
